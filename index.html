@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مكتبتي | المكتبة والخدمات الإلكترونية</title>
+  <meta name="description" content="خدمات الطباعة والتصوير والسير الذاتية والخدمات الإلكترونية.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Tahoma, Arial, sans-serif;
+      background: #f5f7fb;
+      color: #172033;
+      line-height: 1.8;
+    }
+    header {
+      background: #123b63;
+      color: white;
+      padding: 22px 6%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    header h2 { margin: 0; }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+    .hero {
+      text-align: center;
+      padding: 65px 20px;
+      background: linear-gradient(135deg, #123b63, #197b8d);
+      color: white;
+    }
+    .hero h1 { font-size: clamp(28px, 5vw, 44px); }
+    .hero p { font-size: 18px; }
+    .btn {
+      display: inline-block;
+      padding: 11px 23px;
+      border-radius: 9px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 7px;
+    }
+    .primary { background: #f5bd4f; color: #172033; }
+    .whatsapp { background: #168a51; color: white; }
+    main { max-width: 1100px; margin: auto; padding: 30px 18px; }
+    .section-title { text-align: center; margin: 15px 0 25px; }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .service {
+      background: white;
+      padding: 23px;
+      border-radius: 14px;
+      box-shadow: 0 4px 18px #14213d12;
+    }
+    .service .emoji { font-size: 34px; }
+    .contact {
+      text-align: center;
+      background: #e6eef7;
+      padding: 30px 15px;
+      border-radius: 14px;
+      margin-top: 30px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #123b63;
+      color: white;
+      margin-top: 35px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>📚 مكتبتي</h2>
+    <nav>
+      <a href="#home">الرئيسية</a>
+      <a href="#services">خدماتنا</a>
+      <a href="#contact">اتصل بنا</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>المكتبة والخدمات الإلكترونية</h1>
+    <p>إنجاز معاملاتك وخدماتك بكل سهولة واهتمام</p>
+    <a class="btn primary" href="#services">اكتشف خدماتنا</a>
+    <a class="btn whatsapp"
+       href="https://wa.me/966568395365"
+       target="_blank" rel="noopener">
+       تواصل عبر واتساب
+    </a>
+  </section>
+
+  <main>
+    <h2 class="section-title" id="services">خدماتنا</h2>
+    <div class="services">
+      <article class="service">
+        <div class="emoji">🖨️</div>
+        <h3>الطباعة والتصوير</h3>
+        <p>طباعة المستندات وتصوير الأوراق وتجهيز الملفات.</p>
+      </article>
+      <article class="service">
+        <div class="emoji">📄</div>
+        <h3>السيرة الذاتية</h3>
+        <p>إعداد وتصميم سيرة ذاتية احترافية للتقديم على الوظائف.</p>
+      </article>
+      <article class="service">
+        <div class="emoji">💻</div>
+        <h3>الخدمات الإلكترونية</h3>
+        <p>المساعدة في تعبئة النماذج وتقديم الطلبات الإلكترونية.</p>
+      </article>
+      <article class="service">
+        <div class="emoji">📝</div>
+        <h3>الكتابة والتنسيق</h3>
+        <p>تنسيق المستندات وكتابة الخطابات وتجهيز الملفات.</p>
+      </article>
+    </div>
+
+    <section class="contact" id="contact">
+      <h2>نحن في خدمتك</h2>
+      <p>تواصل معنا للاستفسار عن الخدمات والأسعار.</p>
+      <a class="btn whatsapp"
+         href="https://wa.me/966568395365"
+         target="_blank" rel="noopener">
+         راسلنا عبر واتساب
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 مكتبتي - المكتبة والخدمات الإلكترونية</p>
+  </footer>
+</body>
+</html>
